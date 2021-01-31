@@ -1,7 +1,7 @@
-# project-reatapi-introducao
+# Project-reatapi-introducao
 estudo de api com javascript e nodejs aplicando conceito de test de integração com jest
 
-## contato
+## Contato
 email: desenvolvedoreneas2000@gmail.com
 
 ## Objetivo
