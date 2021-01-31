@@ -12,7 +12,7 @@ na introdução da ferramenta, quero  também aprimorar meus conhecimento em cri
 sobre os verbos "GET, POST, PUT/PACHT E DELETE" e poder fazer aplições cada vem mais melhores.
 
 # Tecnologias Utilizadas
-* <a target="_blank" href="https://nodejs.org/en/">NodeJS</a>
+* <a  href="https://nodejs.org/en/" target="_blank">NodeJS</a>
 * <a target="_blank" href="https://www.npmjs.com/package/axios">Axios<a>
 * <a target="_blank" href="https://www.postgresql.org/">PostgreSQL<a>
 * <a target="_blank" href="https://www.npmjs.com/package/ps-promise">ps-promise<a>
