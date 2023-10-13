@@ -1,5 +1,6 @@
 const axios = require('axios');
-
+const assert = require('node:assert');
+ 
 test('Should get posts', async function () {
     
     const response = await axios({
@@ -8,12 +9,33 @@ test('Should get posts', async function () {
     });
 
     const posts = response.data;
-    expect(posts).toHaveLength(3);
-    const [firstPost] = posts;
+    let length = 6;
+	expectPost = {
+		id: 2,
+		title: "ola-mundo",
+		content: "Hello",
+		date: "2023-10-12T05:53:04.000Z"
+	}
+    assert.equal(length, posts.length)
+});
 
-    expect(firstPost.id).toBe(1);
-    expect(firstPost.title).toBe('Reat Api Documentação');
-    expect(firstPost.cotent).toBe('...');
-    expect(firstPost.date).toBe('2021-01-31T01:07:53.873Z');
 
+test('Should get posts by id', async function () {
+    
+    const response = await axios({
+        url: 'http://localhost:3000/posts/2',
+        method: 'get'
+    });
+
+    const posts = response.data[0];
+	expectPost = {
+		id: 2,
+		title: "ola-mundo",
+		content: "Hello",
+		date: "2023-10-12T05:53:04.000Z"
+	}
+    assert.equal(expectPost.id, posts.id);
+    assert.equal(expectPost.title, posts.title);
+    assert.equal(expectPost.content, posts.content);
+    assert.equal(expectPost.date, posts.date);
 });
