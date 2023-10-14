@@ -14,6 +14,6 @@ sobre os verbos "GET, POST, PUT/PACHT E DELETE" e poder fazer aplições cada ve
 # Tecnologias Utilizadas
 * <a  href="https://nodejs.org/en/" target="_blank">NodeJS</a>
 * <a target="_blank" href="https://www.npmjs.com/package/axios">Axios<a>
-* <a target="_blank" href="https://www.postgresql.org/">PostgreSQL<a>
-* <a target="_blank" href="https://www.npmjs.com/package/ps-promise">ps-promise<a>
+* <a target="_blank" href="https://www.mysql.com/">Mysql<a>
+* <a target="_blank" href="https://www.npmjs.com/package/mysql2-promise">mysql2-promise<a>
 * <a target="_blank" href="https://jestjs.io/docs/en/getting-started">jest<a>
