@@ -9,7 +9,7 @@ Meu objetivo em criar este projeto é poder exercitar e poder aprender a utiliza
 utilizo muito, eu tenho uma familiaridade mais com o <a target="_blank" href="https://www.mysql.com/">MySql<a>, esse projeto é minha primeira vez que faço uso do postegre 
 em aplicação  eu já tinha o interesse  em aprender utilizar esse SGBD porem não tinha achado um conteúdo que me ajudasse
 na introdução da ferramenta, quero  também aprimorar meus conhecimento em criação de rest apis saber e entender mais 
-sobre os verbos "GET, POST, PUT/PACHT E DELETE" e poder fazer aplições cada vem mais melhores.
+sobre os verbos "GET, POST, PUT/PACHT E DELETE" e poder fazer aplições melhores.
 
 # Tecnologias Utilizadas
 * <a  href="https://nodejs.org/en/" target="_blank">NodeJS</a>
